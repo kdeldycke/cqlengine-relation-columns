@@ -52,7 +52,7 @@ assert fetched_dummy == dummy_instance
 History
 -------
 
-Originates from an private repository, to cover internal needs in my company.
+Originates from a private repository, to cover internal needs in my company.
 
 This code was then released in the open while discussing issue
 https://github.com/cqlengine/cqlengine/issues/230 in order to provide a proof of
