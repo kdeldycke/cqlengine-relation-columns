@@ -1,7 +1,11 @@
 cqlengine-relation-columns
 ==========================
 
-Adds new CQLengine columns to store pointers to other model instances.
+Adds three new CQLengine columns to store pointers to other model instances:
+
+* `cqlengine.columns.Relation`: for CQLengine instances whose primary key is a simple UUID, 
+* `cqlengine.columns.columns.SQLRelation`: for SQLalchemy instances whose primary key is a simple UUID, 
+* `cqlengine.columns.columns.CompositeRelation`: for CQLengine instances whose primary key is composed of several columns.
 
 
 Example
