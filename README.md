@@ -15,11 +15,10 @@ Example
 import arrow
 import uuid
 
-# Importing module adds new columns to cqlengine.columns
-import .relation-columns  # TODO: #1
-
 from cqlengine import columns
 from cqlengine.models import Model
+
+import cqlengine_relation_columns
 
 
 class Dummy(Model):
