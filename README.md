@@ -18,7 +18,7 @@ import uuid
 from cqlengine import columns
 from cqlengine.models import Model
 
-import cqlengine_relation_columns
+import .cqlengine_relation_columns
 
 
 class Dummy(Model):
