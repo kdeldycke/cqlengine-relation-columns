@@ -10,6 +10,8 @@ import arrow
 from cqlengine import columns
 from cqlengine.models import Model
 
+import .cqlengine_relation_columns
+
 
 def truncate_to_milliseconds(date_time):
     """ Truncate datetime to milliseconds and return an arrow object.
